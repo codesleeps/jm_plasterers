@@ -1110,6 +1110,10 @@ section {
   margin-bottom: 5px;
   color: #c1760d;
 }
+#contact p {
+  color: #060606;
+  transition: .5s;
+}
 
 .contact .info p {
   padding: 0 0 10px 60px;
@@ -1155,10 +1159,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
- 
   font-size: 20px;
   text-align: center;
   padding: 30px 0;
+}
+footer {
+  border-top: 3px solid #e73710;
+  background-image: linear-gradient(65deg, rgb(116, 3, 3), rgb(132, 77, 35), rgb(153, 104, 7));
+  color: #f3be68;
 }
 
 #footer h3 {
@@ -1171,42 +1179,22 @@ section {
 }
 
 
-#footer .social-links {
-  margin: 0 0 40px 0;
-  color: white;
-}
 
 #footer .social-links a {
   font-size: 24px;
   display: inline-block;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 6px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 
-#footer .social-links a:hover {
-  text-decoration: none;
-}
 
-footer {
-  border-top: 3px solid #e73710;
-  background-image: linear-gradient(65deg, rgb(116, 3, 3), rgb(132, 77, 35), rgb(153, 104, 7));
-  color: #f3be68;
-}
 
-#contact a {
-  color: #f3be68;
-  transition: .5s;
-}
-
-#contact a:hover {
-  color: red;
-}
 
 #policies {
   font-size: .8em;
