@@ -1187,11 +1187,9 @@ footer {
   text-align: center;
   width: 36px;
   height: 36px;
-  /* transition: 0.5s; */
+  transition: 0.5s;
+  color: white;
 }
-
-
-
 
 #policies {
   font-size: .8em;
